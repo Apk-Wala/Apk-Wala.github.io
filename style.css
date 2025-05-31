@@ -1,0 +1,230 @@
+/* Basic Reset & Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef1f5; /* Lighter, slightly bluish-grey background */
+    color: #34495e; /* Darker blue-grey for text */
+    line-height: 1.7;
+}
+
+a {
+    color: #3498db; /* Brighter blue for links */
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #2980b9; /* Darker blue on hover */
+    text-decoration: none;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #1abc9c 0%, #2ecc71 100%); /* Vibrant green gradient */
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: sticky; /* Header ko scroll ke saath fix rakhega */
+    top: 0;
+    z-index: 1000; /* Baaki elements ke upar rahega */
+}
+
+.logo-placeholder {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255,255,255,0.2); /* Semi-transparent white */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 12px; /* Zyada rounded corners */
+    margin-right: 20px;
+    font-size: 0.9em;
+    border: 2px solid rgba(255,255,255,0.5);
+}
+
+#site-title {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff; /* White site title on gradient background */
+    font-weight: 700;
+    font-size: 2.4em; /* Thoda bada */
+    margin: 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+/* Main Content Area */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px; /* Thodi zyada padding */
+    gap: 25px;
+}
+
+.content-area {
+    flex: 3;
+    min-width: 300px;
+}
+
+/* Post Styling */
+.post {
+    background-color: #ffffff;
+    border: 1px solid #dfe6e9; /* Halka border */
+    border-left: 6px solid #3498db; /* Nila accent border */
+    border-radius: 10px; /* Zyada rounded corners */
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08); /* Halka shadow */
+    transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+.post:hover {
+    transform: translateY(-5px); /* Hover par thoda upar uthega */
+    box-shadow: 0 8px 20px rgba(40, 100, 150, 0.15); /* Shadow badhega */
+}
+
+.post h2 {
+    color: #2c3e50; /* Dark title color */
+    margin-top: 0;
+    font-size: 1.9em;
+    margin-bottom: 15px;
+}
+
+.post-message {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 1.05em;
+}
+
+/* Ad Space within post */
+.ad-space-internal {
+    background-color: #f8f9fa; /* Internal ad ke liye halka background */
+    border: 1px dashed #bdc3c7; /* Halka dashed border */
+    padding: 15px;
+    margin: 20px 0;
+    text-align: center;
+    font-style: italic;
+    color: #7f8c8d;
+    border-radius: 6px;
+}
+
+/* Download Section Styling */
+.download-section {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.timer-message {
+    color: #e74c3c; /* Tez laal rang timer message ke liye */
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 1.1em;
+}
+
+.timer-message .countdown {
+    font-size: 1.3em;
+    color: #c0392b; /* Gehra laal countdown number ke liye */
+}
+
+.download-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff9a44 0%, #fc6076 100%); /* Orange se pink gradient */
+    color: white;
+    padding: 14px 30px; /* Button ki padding */
+    border: none;
+    border-radius: 50px; /* Pill shape button */
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(252, 96, 118, 0.3); /* Button ka shadow */
+}
+
+.download-button:hover {
+    background: linear-gradient(135deg, #fc6076 0%, #ff9a44 100%); /* Hover par gradient reverse */
+    text-decoration: none;
+    transform: translateY(-2px) scale(1.02); /* Button thoda upar aur bada hoga */
+    box-shadow: 0 6px 15px rgba(252, 96, 118, 0.4);
+}
+
+/* Sidebar Ads Styling */
+.sidebar-ads {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    min-width: 250px;
+    align-self: flex-start;
+}
+
+.sidebar-ads h3 {
+    color: #2c3e50;
+    margin-top: 0;
+    border-bottom: 3px solid #2ecc71; /* Hara underline */
+    padding-bottom: 12px;
+    font-size: 1.5em;
+}
+
+.ad-slot {
+    background-color: #f1f8e9; /* Bahut halka hara */
+    border: 1px solid #dcedc8;
+    padding: 18px;
+    margin-bottom: 18px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.ad-slot p {
+    margin: 0 0 8px 0;
+    color: #33691e; /* Gehra hara text */
+}
+.ad-slot small {
+    color: #7cb342; /* Halka hara text */
+    font-style: italic;
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #2c3e50; /* Gehra neela-grey footer */
+    color: #ecf0f1; /* Halka grey text */
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 0.95em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+    }
+    header {
+        flex-direction: column;
+        align-items: center; /* Mobile par header content center mein */
+        text-align: center;
+    }
+    #site-title {
+        margin-top: 10px;
+        font-size: 2em;
+    }
+    .logo-placeholder {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .post, .sidebar-ads {
+        padding: 20px;
+    }
+    .download-button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+      }
+      
