@@ -1,270 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apk-Wala:
-    Latest Android Unlocked APK Download</title>
-    <meta name="description" content="Get Capcut pro apk Latest and safe, and free Android APKs, modded apps, popular games, and useful utility tools from Apk-Wala. Your trusted source for daily updated APK files.">
-    <meta name="keywords" content="apk-wala, apk, android, Capcut pro apk, Capcut mod apk, telegram mod apk, Whatsapp modapk, youtube premium mod apk,  Spotify mod APK, video editing apk, download, modded apk, free apps, games, tools, latest apk, safe apk, android apps, android games, free download">
-    <link rel="stylesheet" href="style.css">
-    <!-- Stylish Font (Orbitron for a techy feel) - Aap Google Fonts se aur bhi choose kar sakte hain -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-    <div class="logo-placeholder">
-        <img src="apk Wala logo.png" alt="Apk-Wala">
-    </div>
-        <h1 id="site-title">Apk-Wala
-            Latest Android unlocked APK Download</h1>
-    </header>
+document.addEventListener('DOMContentLoaded', () => {
+    const downloadSections = document.querySelectorAll('.download-section');
 
-    <main>
-        <div class="content-area">
-            <!-- Post 1 -->
-            <article class="post">
-                <h2>Download Capcut Pro</h2>
-                <div class="post-image-container post-image-top">
-                    <img src="capcut logo.png" alt="Capcut Pro Feature Image">
-			        <p class="post-message">Wait for the timer to finish to proceed Download.</p>
-                </div>
+    downloadSections.forEach(section => {
+        const countdownSpan = section.querySelector('.countdown');
+        const timerMessageP = section.querySelector('.timer-message');
+        const downloadButton = section.querySelector('.download-button');
+        // --- NEW: Find the join now button ---
+        const joinButton = section.querySelector('.join-now-button');
 
-                <p class="post-message">💎 𝗠𝗼𝗱 𝗜𝗻𝗳𝗼:
-● Pro | Functions unlocked🥇
-● Without ads
-● Mod stable
-● The security notice was eliminated
-● The template section is open
-● Elimination of regional restrictions
-● Android 5.0+ and higher
-● Optimized and clean resources for fast charge.
-● Posted by @APK_wala</p>
-		        <p class="post-message">join our telegram channel for regular updates</p>
+        if (!timerMessageP) return; // If there's no timer message, do nothing
 
-                <div class="post-image-container post-image-bottom">
-                    <p><em>-- _______--</em></p>
-                </div>
+        // Hide buttons by default if they exist
+        if (downloadButton) downloadButton.style.display = 'none';
+        if (joinButton) joinButton.style.display = 'none';
+        
+        // If there's no countdown timer, just show the buttons immediately
+        if (!countdownSpan) {
+            timerMessageP.style.display = 'none';
+            if (downloadButton) downloadButton.style.display = 'inline-block';
+            if (joinButton) joinButton.style.display = 'inline-block';
+            return;
+        }
 
-                <div class="ad-space-internal">
-                    <p><em>-- <script type="text/javascript">
-	atOptions = {
-		'key' : 'afd573bd90caeeb94558920264b0a6cb',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/afd573bd90caeeb94558920264b0a6cb/invoke.js"></script>--</em></p>
-                </div>
-                <div class="download-section">
-                    <p class="timer-message">Please wait <span class="countdown">15</span> seconds for your download link...</p>
-                    <a href="https://linksense.in/Capcup_Pro_14_6" class="download-button" style="display:none;">Download Capcut pro</a>
-                    <!-- NEW BUTTON ADDED HERE -->
-                    <a href="https://t.me/FilmyCineTime_bot" class="join-now-button" style="display:none;">Join Now Telegram</a>
-                </div>
-            </article>
+        let timeLeft = parseInt(countdownSpan.textContent);
 
-		    <!-- Post 2 -->
-            <article class="post">
-                <h2>Download Instagram_Mod</h2>
-                <div class="post-image-container post-image-top">
-			        <img src="instagram.jpg" alt="Instagram Mod Feature Image">
-			        <p class="post-message">Wait for the timer to finish to proceed Download.</p>
-                </div>
-                <p class="post-message">💎 𝗠𝗼𝗱 𝗜𝗻𝗳𝗼:
-● Pro | Functions unlocked🥇
-● Without ads
-● Mod stable
-● The security notice was eliminated
-● The template section is open
-● Elimination of regional restrictions
-● Android 5.0+ and higher
-● Optimized and clean resources for fast charge.
-● Posted by @APK_wala</p>
-		        <p class="post-message">join our telegram channel for regular updates</p>
-                <div class="ad-space-internal">
-                    <p><em>-- <script type="text/javascript">
-	atOptions = {
-		'key' : 'afd573bd90caeeb94558920264b0a6cb',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/afd573bd90caeeb94558920264b0a6cb/invoke.js"></script>--</em></p>
-                </div>
-                <div class="download-section">
-                    <p class="timer-message">Please wait <span class="countdown">15</span> seconds for your download link...</p>
-                    <a href="https://linksense.in/Instagram_Mod" class="download-button" style="display:none;">Download Instagram_Mod</a>
-		            <a href="https://t.me/FilmyCineTime_bot" class="join-now-button" style="display:none;">Join Now Telegram</a>
-                </div>
-            </article>
-			
-            <!-- Post 3 -->
-            <article class="post">
-                <h2>Download Telelatino mobile</h2>
-                <div class="post-image-container post-image-top">
-                    <img src="telelatinomobile.png" alt="telelatinomobile Feature Image">
-                </div>
-                <p class="post-message">Wait for the timer to finish to proceed Download.</p>
-		        <p class="post-message">💎 𝗠𝗼𝗱 𝗜𝗻𝗳𝗼:
-● Pro | Functions unlocked🥇
-● Without ads
-● Mod stable
-● The security notice was eliminated
-● The template section is open
-● Elimination of regional restrictions
-● Android 5.0+ and higher
-● Optimized and clean resources for fast charge.
-● Posted by @APK_wala</p>
-		        <p class="post-message">join our telegram channel for regular updates</p>
-                <div class="ad-space-internal">
-                    <p><em>--<script type="text/javascript">
-	atOptions = {
-		'key' : '1094fd865c3eea5e216649657a565e67',
-		'format' : 'iframe',
-		'height' : 300,
-		'width' : 160,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/1094fd865c3eea5e216649657a565e67/invoke.js"></script>--</em></p>
-                </div>
-                <div class="download-section">
-                    <p class="timer-message">Wait for <span class="countdown">15</span> Sec. (Timer)</p>
-                    <a href="https://linksense.in/telelatinomobile_apk25" class="download-button" style="display:none;">Continue / Download</a>
-		            <a href="https://t.me/FilmyCineTime_bot" class="join-now-button" style="display:none;">Join Now Telegram</a>
-                </div>
-            </article>
+        if (isNaN(timeLeft) || timeLeft <= 0) {
+            timerMessageP.style.display = 'none';
+            if (downloadButton) downloadButton.style.display = 'inline-block';
+            if (joinButton) joinButton.style.display = 'inline-block';
+            return; // No countdown needed
+        }
 
-            <!-- Post 4 -->
-            <article class="post">
-                <h2>Download Telegram!</h2>
-                <div class="post-image-container post-image-top">
-                    <img src="telegram.jpg" alt="telegram.jpg Feature Image">
-                </div>
-                <p class="post-message">Wait for the timer to finish to proceed Download</p>
-		        <p class="post-message">💎 𝗠𝗼𝗱 𝗜𝗻𝗳𝗼:
-● Pro | Functions unlocked🥇
-● Without ads
-● Mod stable
-● The security notice was eliminated
-● The template section is open
-● Elimination of regional restrictions
-● Android 5.0+ and higher
-● Optimized and clean resources for fast charge.
-● Posted by @APK_wala</p>
-		        <p class="post-message">join our telegram channel for regular updates</p>
-                <div class="post-image-container post-image-bottom">
-                    <p></p>
-                </div>
-               <div class="download-section">
-                    <p class="timer-message">Wait for <span class="countdown">15</span> Sec. (Timer)</p>
-                    <a href="https://linksense.in/Telegram_Premium_v11_14_3" class="download-button" style="display:none;">Continue / Download</a>
-		            <a href="https://t.me/FilmyCineTime_bot" class="join-now-button" style="display:none;">Join Now Telegram</a>
-                </div>
-            </article>
+        timerMessageP.style.display = 'block'; // Ensure timer message is visible
+        countdownSpan.textContent = timeLeft; // Update initial display
 
-            <!-- Post 5 -->
-            <article class="post">
-                <h2>Download Grok_Beta_Mod</h2>
-                <div class="post-image-container post-image-top">
-			        <img src="grok.png" alt="grok Feature Image">
-			        <p class="post-message">Wait for the timer to finish to proceed Download.</p>
-                </div>
-                <p class="post-message">💎 𝗠𝗼𝗱 𝗜𝗻𝗳𝗼:
-● Pro | Functions unlocked🥇
-● Without ads
-● Mod stable
-● The security notice was eliminated
-● The template section is open
-● Elimination of regional restrictions
-● Android 5.0+ and higher
-● Optimized and clean resources for fast charge.
-● Posted by @APK_wala</p>
-		        <p class="post-message">join our telegram channel for regular updates</p>
-                <div class="ad-space-internal">
-                    <p><em>-- <script type="text/javascript">
-	atOptions = {
-		'key' : 'afd573bd90caeeb94558920264b0a6cb',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/afd573bd90caeeb94558920264b0a6cb/invoke.js"></script>--</em></p>
-                </div>
-                <div class="download-section">
-                    <p class="timer-message">Please wait <span class="countdown">15</span> seconds for your download link...</p>
-                    <a href="https://linksense.in/Grok_Beta" class="download-button" style="display:none;">Download Grok_Beta</a>
-                    <!-- CORRECTED AND ADDED BUTTON HERE -->
-		            <a href="https://t.me/FilmyCineTime_bot" class="join-now-button" style="display:none;">Join Now Telegram</a>
-                </div>
-            </article>
+        const intervalId = setInterval(() => {
+            timeLeft--;
+            countdownSpan.textContent = timeLeft;
 
-		    <!-- Post 6 -->
-            <article class="post">
-                <h2>Download Hypic_Photo_Editor</h2>
-                <div class="post-image-container post-image-top">
-			        <img src="hypic apk image.jpg" alt="hypic apk image Feature Image">
-			        <p class="post-message">Wait for the timer to finish to proceed Download.</p>
-                </div>
-                <p class="post-message">💎 𝗠𝗼𝗱 𝗜𝗻𝗳𝗼:
-● Pro | Functions unlocked🥇
-● Without ads
-● Mod stable
-● The security notice was eliminated
-● The template section is open
-● Elimination of regional restrictions
-● Android 5.0+ and higher
-● Optimized and clean resources for fast charge.
-● Posted by @APK_wala</p>
-		        <p class="post-message">join our telegram channel for regular updates</p>
-                <div class="ad-space-internal">
-                    <p><em>-- <script type="text/javascript">
-	atOptions = {
-		'key' : 'a51f78d242069f84d33920fc7b326155',
-		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/a51f78d242069f84d33920fc7b326155/invoke.js"></script>-</em></p>
-                </div>
-                <div class="download-section">
-                    <p class="timer-message">Please wait <span class="countdown">15</span> seconds for your download link...</p>
-                    <a href="https://linksense.in/Hypic_Photo_Editor" class="download-button" style="display:none;">Download Hypic_Photo_Editor</a>
-                    <!-- CORRECTED AND ADDED BUTTON HERE -->
-		            <a href="https://t.me/FilmyCineTime_bot" class="join-now-button" style="display:none;">Join Now Telegram</a>
-                </div>
-            </article>
-        </div>
+            if (timeLeft <= 0) {
+                clearInterval(intervalId);
+                timerMessageP.style.display = 'none';
 
-        <aside class="sidebar-ads">
-            <h3>Ads Space</h3>
-            <div class="ad-slot">
-                <p><script async="async" data-cfasync="false" src="//pl26800400.profitableratecpm.com/f48f3f7b73fc64987c1f57d242a09e96/invoke.js"></script>
-<div id="container-f48f3f7b73fc64987c1f57d242a09e96"></div></p>
-                <small></small>
-            </div>
-            <div class="ad-slot">
-                <p><script type='text/javascript' src='//pl26800379.profitableratecpm.com/72/51/fd/7251fdc6d174da9c81b04b345eddf12a.js'></script></p>
-                <small></small>
-            </div>
-        </aside>
-    </main>
-
-    <footer>
-        <p>© 2023 Apk-Wala. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+                // --- UPDATED: Show both buttons if they exist ---
+                if (downloadButton) {
+                    downloadButton.style.display = 'inline-block';
+                }
+                if (joinButton) {
+                    joinButton.style.display = 'inline-block';
+                }
+            }
+        }, 1000);
+    });
+});
